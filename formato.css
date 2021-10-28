@@ -72,9 +72,12 @@ section{
     justify-content: space-around;
 }
 
-.grid{
+.grid {
     display: grid;
-    grid-row-end: 2;
+    /*2 columnas*/
+    grid-template-columns: 200px 100px;
+    /*1 fila*/
+    grid-template-rows: 100px;
 }
 
 .Slogan{
