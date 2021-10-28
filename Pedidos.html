@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pedidos</title>
+    <script src="https://kit.fontawesome.com/48806bc770.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formato.css">
+</head>
+<body class="formulario-de-pedidos">
+    <section class="section-formulario">
+    <header class="header-banner"> 
+        <nav><h1>Peperina y Menta</h1>
+            <ul class="header__navbar--principal"> 
+                <img src="./img/logopeperina.jpg" alt="logopeperina"/> 
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li><a href="Productos.html">Productos</a></li>
+        <!-- Sección dentro de productos
+                    Cortantes
+                    Cubos
+                    Frascos
+                    Imanes
+                    Llaveros
+                    Tazas
+                    Personificaciones
+        -->
+                <li><a href="Pedidos.html">Pedidos</a></li>
+                <i class="fas fa-shopping-cart"></i>
+            </ul>
+        </nav>
+        <form method=GET action="file:///C:/Users/Julieta/Documents/Desarrollo%20web/Nueva%20carpeta/index.html">
+            <fieldset>
+                <input type=hidden name=ie value=UTF-8 />
+                <input type=hidden name=oe value=UTF-8 />
+                <input TYPE=text id="s" name="q" value="" size="50" />
+                <input type=hidden name=domains
+                value="file:///C:/Users/Julieta/Documents/Desarrollo%20web/Nueva%20carpeta/index.html" />
+                <br>
+                <input type=submit id="x" name=btnG VALUE="Buscar" />
+            </fieldset>
+        </form>
+    <form action="#">
+        <fieldset>
+           <legend>Formulario de Pedidos</legend>
+           <select name="Código de Producto" id="">
+               <option value=""> Seleccioná tu producto</option>
+               <option value="Clips">Clips</option>
+               <option value="Cortantes">Cortantes</option>
+               <option value="Cubos">Cubos</option>
+               <option value="Frascos">Frascos</option>
+               <option value="Imanes">Imanes</option>
+               <option value="Llaveros">Llaveros</option>
+               <option value="Tazas">Tazas</option>
+               <option value="Personificaciones">Personificaciones</option>
+           </select>
+        
+        <br/> <!--provisorio-->
+        <label for="Cantidad">Cantidad</label>
+        <input type="text" name="Cantidad" required id="Cantidad">
+        <br> <!--provisorio-->
+        <label for="Descripción">Descripción</label>
+        <textarea name="Detalle de colores" id="Detalle"  cols="30" rows="8" maxlength="500"></textarea>
+        <br/>
+        <input type="file" name="file" id="Detalle de Colores">
+
+        <legend>Tamaño del producto</legend>
+        <p>
+        <label for="size_1">Pequeño</label>
+        <input type="radio" name="size" id="size_1" value="small">
+        </p>
+        <p>
+        <label for="size_2">Mediano</label>
+        <input type="radio" name="size" id="size_2" value="medium">
+        </p>
+        <p>
+        <label for="size_3">Grande</label>
+        <input type="radio" name="size" id="size_3" value="large">
+        </p>
+        
+        <br/>
+        <div>Tipo de Cliente</div>
+        <input type="checkbox" name="cbox1">Nuevo
+        <input type="checkbox" name="cbox1">Existente
+
+        <div class=".submit">
+        <br/>
+        <input type="submit">    
+        <input type="reset">
+        </div>
+
+        <div class="submit__gradientes">
+
+        </div>
+        </fieldset>
+    </form>
+    </section>
+<br>
+<footer class="footer">
+    <img src="./img/logopeperina.jpg" alt="Peperina.y.Menta"/> 
+    <ul class="footer__principal">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Nosotros.html">Nosotros</a></li>
+        <li><a href="Productos.html">Productos</a></li>
+        <li><a href="Preguntas Frecuentes.html">Preguntas Frecuentes</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+    
+    <a href="https://www.instagram.com/peperina.y.menta/?hl=es">
+    <i class="fab fa-instagram"></i></a>Peperina.Y.Menta
+    </ul>
+</footer>
+</body>
+</html>
+
+

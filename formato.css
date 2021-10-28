@@ -1,0 +1,208 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    --box-sizing: border-box;
+}
+/*--body--------*/
+body{
+    font-family: 'Mulish', sans-serif;
+    text-align: justify;
+    overflow-x: hidden;
+    margin-bottom: 0rem;
+}
+
+/*--header------*/
+header{
+    background-color:ghostwhite;
+    font-size: 1rem;
+}
+.header-banner{
+    background-image: url("mexicana.jpg");
+    background-color: dimgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    height: 15vh;
+    border: 1px solid #666262; 
+}
+.header-banner{
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.header__navbar--principal{   
+    padding: 1rem;
+    list-style: none;
+}
+.header__navbar--principal li{   
+    display: inline-block;
+}
+
+.header__navbar--principal a{   
+    text-decoration: none;
+    text-align:right;
+    color: ghostwhite;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: rgb(255, 73, 240);
+}
+
+/*--section------*/
+section{
+    background-color:rgb(203, 175, 218);
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 1rem
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.titulos{
+    color: palevioletred;
+    font-size: 30px;
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid{
+    display: grid;
+    grid-row-end: 2;
+}
+
+.Slogan{
+    color: deeppink;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.italica{
+    font-style: inherit;
+}
+
+.three-columns {
+    -webkit-column-count: 3; 
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+/*--footer------*/
+footer{
+    background-color:dimgray
+    padding: 40px;
+    margin-top: 10;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100px;
+    clear: both;
+}
+.footer__principal{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: space-between;
+}
+.footer__principal a{
+    text-decoration:none;
+    font-size: 1rem;
+    list-style-type:none; 
+    color: rgb(252, 246, 246);
+
+/*--Nosotros------*/
+
+
+/*--Productos------*/
+
+
+/*--Pedidos------*/
+
+label {
+    display:flex;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input.textarea {
+    width:380px;
+    height:27px;
+    background:#666666;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#ffffff;
+}
+ 
+.submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+   
+}
+.submit__gradientes {
+    background-image: linear-gradient(to left, rgb(247, 243, 243) , rgb(255, 0, 255));
+}
+
+
+       
+
+/*--Preguntas Frecuentes------*/
+
+
+/*--Contacto------*/
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+ 
+.section-formulario-contacto {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: #666666;
+    font-family:Arial;
+}
+ 
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input.textarea {
+    width:380px;
+    height:27px;
+    background:#666666;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#ffffff;
+}
+ 
+textarea {
+    height:150px;
+}
+ 
+.submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
